@@ -1,0 +1,73 @@
+# Python
+*.py[cod]
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.env
+*.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.mo
+*.coverage
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.log
+**/migrations/__pycache__/
+**/migrations/*.py
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# VS Code settings
+.vscode/
+
+# IDE files
+.idea/
+*.iml
+
+# Tests
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+.pylint.d/
+
+# Celery beat schedule file
+celerybeat-schedule
